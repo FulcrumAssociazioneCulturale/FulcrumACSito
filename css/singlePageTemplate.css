@@ -15,7 +15,6 @@ body {
 	width: 1100px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 1000px;
 	background-color: #000000;
 }
 .news {
@@ -23,7 +22,6 @@ body {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	height: 220px;
 	text-align: center;
-	margin-top: 0px;
 
 }
 .newsarticle {
@@ -31,12 +29,11 @@ body {
 	width: 25%;
 	height: 170px;
 	text-align: center;
-	margin-top: 10px;
 }
 .newsimage {
 	border: 3px groove #8B8181;
 	border-radius: 4px;
-	width: 250px;
+	width: 260px;
 	height: 110px;
 }
 
@@ -281,9 +278,17 @@ footer .footer_column p {
 	background-image: url(../images/pattern.png);
 	background-repeat: repeat;
 }
+.footericons {
+	font-size: 35px;
+	text-decoration: none;
+	text-align: center;
+	letter-spacing: 35px;
+}
+
 footer {
 	display: inline-block;
 }
+
 .hidden {
 	display: none;
 }
