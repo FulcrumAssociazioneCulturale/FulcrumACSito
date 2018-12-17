@@ -1,18 +1,27 @@
 @charset "utf-8";
 
+.topbar {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
+	background-color: #333333;
+	text-align: center;
+}
+
+.upperlogo {
+	width: 350px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .navbar {
 	overflow: hidden;
-	background-color: #333;
 	width: 1100px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin-right: auto;
 	margin-left: auto;
 	height: auto;
 }
-.upperlogo {
-	width: 350px;
-}
-
 
 .navbar a {
 	float: left;
@@ -39,7 +48,7 @@
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-	background-color: red;
+	background-color:#5A2324;
 }
 
 .subnav-content {
