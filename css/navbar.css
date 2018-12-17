@@ -3,8 +3,10 @@
 .navbar {
 	overflow: hidden;
 	background-color: #333;
-	width: 100%;
+	width: 85%;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .navbar a {
