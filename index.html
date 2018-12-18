@@ -23,8 +23,23 @@
 
 </head>
 <body>
+	<div class="topbarsmall">
+		<img class="smalllogo" src="images/logo.png" alt="">
+		<img class="smalllogotext" src="images/scrittalogo.png" alt="">
+    	<div id="smallmenulinks">
+			<a href ="#notizie">Notizie</a> 
+			<a href ="#fulcrum">Fulcrum</a> 
+			<a href ="#servizi">Servizi</a> 
+			<a href ="#faq">FAQ</a> 
+			<a href ="#contatti">Contatti</a>
+	    </div>
+		<a href="javascript:void(0);" class="smallmenuicon" onclick="openSmallMenu()">
+			<i class="fas fa-bars"></i>
+		</a>	
+	</div>
+	
 	<div class="topbar">
-		<img class="upperlogo" src="images/fulcrum orizzontale.jpg"> 
+		<img class="upperlogo" src="images/fulcrum orizzontale.png" alt=""> 
 		<div class="navbar">
 			<div class="subnav">
 				<button class="subnavbtn">Progetti <i class="fa fa-caret-down"></i></button>
@@ -32,7 +47,7 @@
       		</div>
 	  		<a href ="#notizie">Notizie</a> <a href ="#fulcrum">Fulcrum</a> <a href ="#servizi">Servizi</a> <a href ="#faq">FAQ</a> <a href ="#contatti">Contatti</a>		
 		</div>
-	</div>
+</div>
 <!-- Main Container -->
 	
 	<div class="container"> 
@@ -68,7 +83,12 @@
 	<section class="footer_banner" id="contact">
     	<h2 class="hidden">Footer Banner Section </h2>
     	<!--<p class="hero_header">FOR THE LATEST NEWS &amp; UPDATES</p>-->
-		<div class="footericons"><i class="fab fa-twitter"></i><i class="fab fa-facebook-square"></i><i class="fab fa-instagram"></i><i class="fab fa-youtube"></i></div>
+		<div class="footericons">
+		  <div class="footericon"><i class="fab fa-twitter"></i></div>
+          <div class="footericon"><i class="fab fa-facebook-square"></i></div>
+          <div class="footericon"><i class="fab fa-instagram"></i></div>
+          <div class="footericon"><i class="fab fa-youtube"></i></div>
+		</div>
 	</section>
   <!-- Copyrights Section -->
   <div class="copyright">&copy;2019 - <strong>Fulcrum Associazione Culturale</strong></div>
@@ -88,5 +108,15 @@
 			});			
 		});
 	</script>	
+	<script> 
+		function openSmallMenu(){
+			var x = document.getElementById("smallmenulinks");
+			if (x.style.display === "block"){
+				x.style.display = "none"; 						
+			} else {
+				x.style.display = "block";
+			}
+		}			
+	</script>
 </body>
 </html>
