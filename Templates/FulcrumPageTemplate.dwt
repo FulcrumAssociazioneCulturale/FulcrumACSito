@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Fulcrum Associazione Culturale - Template</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../css/template.css" rel="stylesheet" type="text/css">
+<link href="../css/navbar.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="topbarsmall">
+		<img class="smalllogo" src="images/logo.png" alt="">
+		<img class="smalllogotext" src="images/scrittalogo.png" alt="">
+    	<div id="smallmenulinks">
+			<a href ="#notizie">Notizie</a> 
+			<a href ="#fulcrum">Fulcrum</a> 
+			<a href ="#servizi">Servizi</a> 
+			<a href ="#faq">FAQ</a> 
+			<a href ="#contatti">Contatti</a>
+	    </div>
+		<a href="javascript:void(0);" class="smallmenuicon" onclick="openSmallMenu()">
+			<i class="fas fa-bars"></i>
+		</a>	
+	</div>
+	
+	<div class="topbar">
+		<img class="upperlogo" src="images/fulcrum orizzontale.png" alt=""> 
+		<div class="navbar">
+			<div class="subnav">
+				<button class="subnavbtn">Progetti <i class="fa fa-caret-down"></i></button>
+	    		<div class="subnav-content"> <a href="#">Gioco dell'Oca</a> <a href="#">Guida alla Frontiera Galattica</a> <a href="#">Ammo2</a></div>
+      		</div>
+	  		<a href ="#notizie">Notizie</a> <a href ="#fulcrum">Fulcrum</a> <a href ="#servizi">Servizi</a> <a href ="#faq">FAQ</a> <a href ="#contatti">Contatti</a>		
+		</div>
+	</div>
+<!-- TemplateBeginEditable name="body" -->
+<!-- TemplateEndEditable -->
+	<div class="container">
+		<!-- TemplateBeginEditable name="content" -->
+		<!-- TemplateEndEditable -->
+		<section class="footer_banner" id="contact">
+    		<h2 class="hidden">Footer Banner Section </h2>
+    		<!--<p class="hero_header">FOR THE LATEST NEWS &amp; UPDATES</p>-->
+			<div class="footericons">
+		  		<div class="footericon"><i class="fab fa-twitter"></i></div>
+          		<div class="footericon"><i class="fab fa-facebook-square"></i></div>
+          		<div class="footericon"><i class="fab fa-instagram"></i></div>
+          		<div class="footericon"><i class="fab fa-youtube"></i></div>
+			</div>
+		</section>
+  <!-- Copyrights Section -->
+  		<div class="copyright">&copy;2019 - <strong>Fulcrum Associazione Culturale</strong></div>
+	</div>
+	<!-- TemplateBeginEditable name="scripts" -->
+	<!-- TemplateEndEditable -->
+	<script> 
+		function openSmallMenu(){
+			var x = document.getElementById("smallmenulinks");
+			if (x.style.display === "block"){
+				x.style.display = "none"; 						
+			} else {
+				x.style.display = "block";
+			}
+		}			
+	</script>
+</body>
+</html>
