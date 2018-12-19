@@ -16,6 +16,8 @@
 	margin-left: 4px;
 	margin-top: 4px;
 	vertical-align: middle;
+	width: 315px;
+	height: 200px;
 }
 .testoprogetti {
 	color: #FFFFFF;
@@ -29,4 +31,40 @@
 	height: 200px;
 	margin-right: 4px;
 	margin-top: 4px;
+}
+
+.testoprogetti p {
+	margin-top: 6px;
+}
+
+@media (max-width: 1096px) {	
+	.testoprogetti{
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 767px) {
+	.progetti article img {
+		width: 235px;
+		height: 150px;
+	}
+	.testoprogetti {
+		height: 150px;
+		font-size: 14px;
+		overflow:scroll;
+	}
+}
+
+@media (max-width: 320px) {	
+	.progetti article img {
+		width: 105px;
+		height: 66px;
+	}
+	.testoprogetti {
+		height: 66px;
+		font-size: 12px;
+	}	
+	.progetti article {
+		height: 80px;
+	}
 }
