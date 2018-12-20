@@ -31,13 +31,20 @@
 	</div>
 	
 	<div class="topbar">
-		<img class="upperlogo" src="images/fulcrum orizzontale.png" alt=""> 
+		<img class="upperlogo" src="../images/fulcrum orizzontale.png" alt=""> 
 		<div class="navbar">
 			<div class="subnav">
-				<button class="subnavbtn">Progetti <i class="fa fa-caret-down"></i></button>
-	    		<div class="subnav-content"> <a href="#">Gioco dell'Oca</a> <a href="#">Guida alla Frontiera Galattica</a> <a href="#">Ammo2</a></div>
+                <div class="subnavbtn">
+					<a href="progetti.html">Progetti <i class="fa fa-caret-down"></i></a>
+				</div>
+	    		<div class="subnav-content"> 
+					<a class="navbarlink" href="progetti/oca.html">Gioco dell'Oca</a> 
+					<a class="navbarlink" href="progetti/guida.html">Guida alla Frontiera Galattica</a> 
+					<a class="navbarlink" href="progetti/ammo2.html">Ammo2</a>
+					<a class="navbarlink" href="progetti/aq.html">Adventure Quest</a>
+				</div>
       		</div>
-	  		<a href ="#notizie">Notizie</a> <a href ="#fulcrum">Fulcrum</a> <a href ="#servizi">Servizi</a> <a href ="#faq">FAQ</a> <a href ="#contatti">Contatti</a>		
+	  		<a class="navbarlink" href ="#notizie">Notizie</a> <a class="navbarlink" href ="#fulcrum">Fulcrum</a> <a class="navbarlink" href ="#servizi">Servizi</a> <a class="navbarlink" href ="#faq">FAQ</a> <a class="navbarlink" href ="#contatti">Contatti</a>		
 		</div>
 	</div>
 <!-- TemplateBeginEditable name="body" -->
