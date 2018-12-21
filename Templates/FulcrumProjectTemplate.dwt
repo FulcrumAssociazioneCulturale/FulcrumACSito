@@ -7,18 +7,20 @@
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Fulcrum Associazione Culturale - ProjectTemplate</title>
 <!-- InstanceEndEditable -->
-<!-- InstanceBeginEditable name="head" -->
-<link href="/css/projecttemplate.css" rel="stylesheet" type="text/css">
+<!-- InstanceBeginEditable name="head" -->	
 <!-- InstanceEndEditable -->
-<link href="/css/template.css" rel="stylesheet" type="text/css">
-<link href="/css/navbar.css" rel="stylesheet" type="text/css">
+<link href="../css/template.css" rel="stylesheet" type="text/css">
+<link href="../css/navbar.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+<!-- InstanceBeginEditable name="stylesheets" -->
+@@("")@@<link href="../css/projecttemplate.css" rel="stylesheet" type="text/css">
+<!-- InstanceEndEditable -->
 </head>
 
 <body>
 	<div class="topbarsmall">
-		<img class="smalllogo" src="images/logo.png" alt="">
-		<img class="smalllogotext" src="images/scrittalogo.png" alt="">
+		<img class="smalllogo" src="/images/logo.png" alt="">
+		<img class="smalllogotext" src="/images/scrittalogo.png" alt="">
     	<div id="smallmenulinks">
 			<a href ="#notizie">Notizie</a> 
 			<a href ="#fulcrum">Fulcrum</a> 
@@ -32,17 +34,17 @@
 	</div>
 	
 	<div class="topbar">
-		<div class="logowrap"><img class="upperlogo" src="/images/fulcrum orizzontale.jpg" alt=""></div> 
+		<div class="logowrap"><img class="upperlogo" src="../images/fulcrum%20orizzontale.jpg" alt=""></div> 
 		<div class="navbar">
 			<div class="subnav">
                 <div class="subnavbtn">
 					<a href="progetti.html">Progetti <i class="fa fa-caret-down"></i></a>
 				</div>
 	    		<div class="subnav-content"> 
-					<a class="navbarlink" href="progetti/oca.html">Gioco dell'Oca</a> 
-					<a class="navbarlink" href="progetti/guida.html">Guida alla Frontiera Galattica</a> 
-					<a class="navbarlink" href="progetti/ammo2.html">Ammo2</a>
-					<a class="navbarlink" href="progetti/aq.html">Adventure Quest</a>
+					<a class="navbarlink" href="/progetti/oca.html">Gioco dell'Oca</a> 
+					<a class="navbarlink" href="/progetti/guida.html">Guida alla Frontiera Galattica</a> 
+					<a class="navbarlink" href="/progetti/ammo2.html">Ammo2</a>
+					<a class="navbarlink" href="/progetti/aq.html">Adventure Quest</a>
 				</div>
       		</div>
 	  		<a class="navbarlink" href ="#notizie">Notizie</a> <a class="navbarlink" href ="#fulcrum">Fulcrum</a> <a class="navbarlink" href ="#servizi">Servizi</a> <a class="navbarlink" href ="#faq">FAQ</a> <a class="navbarlink" href ="#contatti">Contatti</a>		
@@ -52,18 +54,40 @@
 	
 <!-- InstanceEndEditable -->
 	<div class="container">
-		<!-- InstanceBeginEditable name="content" -->
+	  <!-- InstanceBeginEditable name="content" -->
 		<section class="project">
-			<h1 class="title">
-			<!-- TemplateBeginEditable name="title" -->
-				Titolo
-			<!-- TemplateEndEditable -->
-			</h1>
-			<!-- TemplateBeginEditable name="content" -->
-			<img class="imgcontent" src="/images/1100x300.png" alt="">
-			<p class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
-			</p>
-			<!-- TemplateEndEditable -->
+            <div class="imgcontent"><img src="../images/1100x300.png" alt=""></div>				
+		  	<div class="projectbox">
+		  		<div class="contentbox">
+		  	    	<h1 class="title">
+		  	      	<!-- TemplateBeginEditable name="title" -->
+		  	        	Titolo
+	  	          	<!-- TemplateEndEditable -->
+		  	      	</h1>
+		  	    	<!-- TemplateBeginEditable name="content" -->
+		  	      
+		  	        <p class="content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+	  	        	</p>
+	  	        	<!-- TemplateEndEditable -->
+		  	    </div>
+				<div class="sidebar">
+                  	<div class="flag">
+						<p>
+							<i class="fas fa-bullhorn"></i>
+                      		Notizie
+                      	</p>
+                  	</div>
+					<section class="news">
+						<!-- TemplateBeginEditable name="news" -->
+						<time class="newsdate">01/01/2019</time>
+						<h3>Project Title</h3>
+						<img src="../images/315x150.png">
+						<h4>News Title</h4>
+						<p>Lorem ipsum</p>
+						<!-- TemplateEndEditable -->
+					</section>
+				</div>
+	  		</div>
 		</section>
 		<!-- InstanceEndEditable -->
 		<section class="footer_banner" id="contact">

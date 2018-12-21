@@ -13,6 +13,21 @@
 .imgcontent {
 	margin-left: auto;
 	margin-right: auto;
+	width: 100%;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	height: 300px;
+}
+
+.projectbox {	
+	display: flex;
+}
+
+.contentbox {
+	margin-top: 0px;
+	width: 70%;
+	top:0;
+	left: 0;
 }
 
 .content {
@@ -21,4 +36,47 @@
 	text-align: justify;
 	padding-left: 20px;	
 	padding-right: 20px;
+	margin-top: 0px;
+}
+
+.sidebar{	
+	width: 30%;
+	height: 100%;
+	margin-top: 0px;
+	top: 0;
+	right: 0;	
+} 
+
+.flag {
+	background-color: #454343;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 20px;
+	padding-right: 20px;
+	word-spacing: 12px;
+	border-bottom: medium double #FFFFFF;
+}
+.sidebar p {
+	color: white;
+	font-size: 20px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.sidebar i {
+	font-size: 20px;
+}
+
+.news {
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.news time {
+	width: 50%;	
+}
+
+.news h3 {
+	width: 50%;
 }
