@@ -8,6 +8,10 @@
 	text-align: center;
 }
 
+.logowrap {
+	background-color: black;
+}
+
 .topbarsmall {		
 	background-color: white;
 	position: relative;
