@@ -1,14 +1,12 @@
 @charset "UTF-8";
 /* Body */
 body {
-	font-family: source-sans-pro;
+	font-family: 'Nunito';
 	background-color: #f2f2f2;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	font-style: normal;
-	font-weight: 200;
 }
 
 /* Container */
@@ -16,7 +14,6 @@ body {
 	width: 1100px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #000000;
 }
 
 .footer_banner {
@@ -48,7 +45,6 @@ body {
 	background-color: #717070;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	font-weight: lighter;
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
