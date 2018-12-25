@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+.about img {
+	width: 200px;	
+	height: 200px;
+}
+
+.aboutlayout {
+	display: flex;
+	margin-left: 18px;
+	padding-left: 2px;
+	padding-right: 2px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-right: 18px;
+	border-bottom-width: 2px;
+	border-bottom-style: ridge;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
+
+.aboutcontent {
+	margin-left: 20px;
+	width: 100%;
+}
