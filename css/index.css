@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
-.news {
-	color: #FFFFFF;
+.news {	
 	height: 260px;
 	text-align: center;
 	padding-left: 8px;
@@ -11,7 +10,13 @@
 .newsarticle {
 	float: left;
 	width: 25%;
-	text-align: center;
+	text-align: center;	
+}
+
+.newsarticle p {
+	text-align: justify;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 .newsimage {
 	border: 3px groove #8B8181;
