@@ -156,8 +156,8 @@
   margin: 0; }
   .sy-controls li {
     position: absolute;
-    width: 10%;
-    min-width: 4.2em;
+    width: auto;
+    min-width: 2em;
     height: 100%;
     z-index: 33; }
     .sy-controls li.sy-prev {
@@ -189,18 +189,18 @@
                 background-size: cover;
         text-align: center;
         text-indent: 0;
-        line-height: 2.8em;
+        line-height: 2em;
         color: #111;
         font-weight: 800;
         position: absolute;
         background-color: #fff;
-        width: 2.8em;
-        height: 2.8em;
-        left: 50%;
+        width: 2em;
+        height: 2em;
+        left: 0;
         top: 50%;
-        margin-top: -1.4em;
-        margin-left: -1.4em;
-        border-radius: 50%; }
+        margin-top: -0em;
+        margin-left: -0em;
+        border-radius: 0; }
   @media only screen and (max-device-width: 600px) {
     .sy-controls {
       display: block; }
