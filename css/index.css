@@ -1,15 +1,11 @@
 @charset "UTF-8";
 
-.container {	
-	margin-top: 15px;
-}
-
 .news {	
 	height: 260px;
 	margin-top: 6px;	
 }
 
-.news h3 {
+.news h2 {
 	margin-top: 0;
 	margin-bottom: 6px;
 	text-align: center;
@@ -23,14 +19,24 @@
 
 .newsarticle {	
 	width: 252px;	
-	text-align: justify;
+}
+
+.newstext {
+	font-size: 15px;
+	text-decoration: none;
+	height: 4em;
 }
 
 .newsimage {
-	border: 1px groove #8B8181;
-	border-radius: 3px;
+	/*border: 1px groove #8B8181;
+	border-radius: 3px;*/
 	width: 250px;
 	height: 125px;
+	border-top: 1px;
+	border-radius: 5px;
+	border-style: none;
+	-webkit-box-shadow: 1px 2px 7px 2px black;
+	box-shadow: 1px 2px 7px 2px black;
 }
 
 footer {

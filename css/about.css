@@ -5,17 +5,32 @@
 	padding-bottom: 20px;
 }
 
+.separator {	
+	margin-top: 20px;
+	margin-bottom: 0;
+	border-bottom: 1px solid rgba(0,0,0,1.00);
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	padding-left: 50px;
+}
 .about img {
 	width: 200px;	
 	height: 200px;
 }
 
-.aboutlayout {
+.folder {
 	display: flex;
 	margin-left: 17px;
 	padding-left: 3px;
 	padding-right: 3px;
-	padding-bottom: 20px;
+	padding-bottom: 12px;
 	padding-top: 20px;
 	margin-right: 17px;
 	border-bottom-width: 3px;
@@ -27,4 +42,9 @@
 .aboutcontent {
 	margin-left: 20px;
 	width: 100%;
+	text-align: justify;	
+}
+
+.aboutcontent h3 {
+	margin-top: 0;
 }
