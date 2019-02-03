@@ -8,13 +8,26 @@
 	margin-bottom: 20px;
 }
 
+.FAQ h1 {	
+	text-shadow: 
+      0px -1px 0 darkgray, 
+      -1px 1px 1px grey, 
+      -2px 2px 1px lightgray; 
+}
 .FAQ h2 {
 	font-size: 20px;
 	margin-bottom: 0px;
 	margin-top: 0px;	
+	text-shadow: 
+      0px -1px 0 darkgray, 
+      -1px 1px 1px grey, 
+      -2px 2px 1px lightgray; 
 }
 
 .FAQ p {
 	margin-bottom: 0px;
-	margin-top: 0px;
+	margin-top: 0px;	
+	text-shadow:
+		-1px 1px 5px grey, 
+      	-2px 2px 5px lightgray;
 }

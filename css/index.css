@@ -1,11 +1,9 @@
 @charset "UTF-8";
 
-.news {	
-	height: 260px;
-	margin-top: 6px;		
-	text-shadow: 
-      -1px 1px 5px grey, 
-      -2px 2px 5px lightgray; 
+.news {
+	margin-top: 6px;
+	text-shadow: -1px 1px 5px grey, 
+      	-2px 2px 5px lightgray;
 }
 
 .news h2 {
@@ -21,7 +19,11 @@
 
 .newsarticlebox {
 	display: flex;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: space-between;		
+	padding-left: 1px;
+	padding-right: 1px;
+	padding-bottom: 4px;
 }
 
 .newsarticle {	
