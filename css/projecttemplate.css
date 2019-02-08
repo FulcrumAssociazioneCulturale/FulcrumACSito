@@ -12,7 +12,7 @@
       -2px 2px 1px lightgray; 	
 }
 
-.imgcontent {
+.projbannerbig {
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
@@ -33,7 +33,6 @@
 }
 
 .content {
-	color: black;
 	font-size: 20px;
 	padding-left: 10px;	
 	padding-right: 10px;
@@ -42,6 +41,21 @@
 	text-shadow: 
       -1px 1px 3px darkgray, 
       -2px 2px 3px lightgray; 
+}
+
+.imgflow {
+	display: flex;
+	justify-content: space-between;
+}
+
+.imgflow img {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.imgflow p {
+	margin-top: 5px;
+	text-align: justify;
 }
 
 .sidebar{
@@ -142,4 +156,21 @@
 	text-shadow: 
       -1px 1px 5px darkgray, 
       -2px 2px 5px gray; 
+}
+
+@media (max-width: 1096px) {
+	.projbannerbig {
+		width: 770px;
+		height: 210px;
+	}
+	.projbannerbig img {
+		width: 770px;
+		height: 210px;
+	}	
+}
+@media (max-width: 767px) {
+	
+}
+@media (max-width: 320px) {
+	
 }
