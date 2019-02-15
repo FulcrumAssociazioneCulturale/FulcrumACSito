@@ -1,10 +1,9 @@
-.title {
+.contentbox h1 {
 	width: 100%;
 	margin-top: 15px;
 	margin-bottom: 0px;
 	color: black;
 	padding-left: 15px;	
-	font-size: 26px;
 	text-align: center;	
 	text-shadow: 
       0px -1px 0 darkgray, 
@@ -32,8 +31,7 @@
 	left: 0;
 }
 
-.content {
-	font-size: 20px;
+.contentbox p {
 	padding-left: 10px;	
 	padding-right: 10px;
 	margin-top: 15px;
@@ -47,10 +45,14 @@
 	display: flex;
 	justify-content: space-between;
 }
-
+.centerimg {
+	justify-content: space-around;
+}
 .imgflow img {
 	margin-left: 10px;
 	margin-right: 10px;
+	height: 100%;
+	flex-shrink: 0;
 }
 
 .imgflow p {
@@ -81,6 +83,7 @@
 	margin-bottom: 0px;
 	width: auto;
 }
+
 .sidebar .flag p {
 	color: #FFFFFF;
 }
@@ -108,9 +111,10 @@
 }
 
 .news img {
+	margin-top: 2px;
 	margin-left: 10px;
 	margin-right: 10px;
-	margin-bottom: 0;
+	margin-bottom: 2px;
 	width: 250px;
 	height: 125px;
 	-webkit-box-shadow: 0px 1px 5px 0px black;
@@ -118,7 +122,7 @@
 }
 
 .news time {
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: 100;
 	width: 30%;
 	padding-left: 6px;
@@ -128,7 +132,7 @@
 	margin-top: 0;
 	margin-bottom: 0;
 	width: 70%;
-	font-size: 14px;
+	font-size: 12px;
 	text-align: right;
 	padding-right: 7px;
 	font-weight: 150;		
@@ -140,7 +144,7 @@
 .news h4 {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 20px;
+	font-size: 18px;
 	width: 100%;
 	padding-left: 7px;		
 	text-shadow: 
@@ -152,11 +156,47 @@
 .news p {
 	width: 100%;
 	padding-left: 7px;
-	font-weight: 500;	
+	font-size: 14px;
 	text-shadow: 
       -1px 1px 5px darkgray, 
       -2px 2px 5px gray; 
+	opacity: 0.78;
 }
+
+.links {	
+	font-size: 35px;
+	display: flex;
+	justify-content: space-around;	
+	text-align: center;
+}
+.links p {
+	margin-top: -5px;
+	margin-bottom: 0;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.links span {
+	line-height: 100%;
+}
+
+.links i {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.links div {
+	flex-basis: 20%;
+	flex-grow: 1;
+}
+
+.facebooklink i {
+	color: rgba(59,89,152,1.00);	
+}
+.externallink i {	
+	color: rgba(49,49,49,0.70);
+}
+
 
 @media (max-width: 1096px) {
 	.projbannerbig {
@@ -167,9 +207,24 @@
 		width: 770px;
 		height: 210px;
 	}	
+	.contentbox img {
+		width: 70%;
+		height: 70%;
+	}
 }
 @media (max-width: 767px) {
-	
+	.projbannerbig {
+		width: 335px;
+		height: 105px;
+	}
+	.projbannerbig img {
+		width: 335px;
+		height: 105px;
+	}	
+	.contentbox img {
+		width: 30%;
+		height: 30%;
+	}	
 }
 @media (max-width: 320px) {
 	

@@ -36,7 +36,6 @@ h1 {
 }
 
 .progetti h2 {
-	font-size: 18px;
 	margin-top: 0px;
 	margin-bottom: 6px;	
 	text-shadow: 
@@ -72,7 +71,7 @@ article {
 @media (max-width: 1096px) {	
 	h1 {
 		padding-left: 100px;
-	}		
+	}			
 	.testoprogetti{	
 		overflow:scroll;
 	}

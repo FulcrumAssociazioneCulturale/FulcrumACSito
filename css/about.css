@@ -16,13 +16,7 @@
 }
 
 h1 {
-	margin-top: 0;
-	margin-bottom: 10px;
 	padding-left: 50px;
-	text-shadow: 
-      0px -1px 0 darkgray, 
-      -1px 1px 1px grey, 
-      -2px 2px 1px lightgray; 
 }
 
 h2 {
@@ -45,10 +39,17 @@ h2 {
 	border-bottom-style: ridge;
 	border-bottom-left-radius: 9px;
 	border-bottom-right-radius: 9px;
+	flex-wrap: wrap;
+}
+
+.fulcrumsheet .aboutcontentright {
+	flex-basis: 77%;
 }
 
 .fulcrumsheet img {
-	margin-left: 10px;
+	padding-left: 10px;
+	flex-shrink: 0;
+	height: 100%;
 }
 
 .folder {
@@ -116,4 +117,29 @@ h3 {
       0px -1px 0 darkgray, 
       -1px 1px 1px grey, 
       -2px 2px 1px lightgray; 
+}
+@media (max-width: 1096px) {	
+	#fulcrumlogo {
+		width: 140px;
+		height: 140px;
+	}
+	.sheet img {
+		width: 105px;
+		height: 105px;
+	}
+	.fulcrumsheet .aboutcontentright {
+		flex-grow: 1;
+	}
+}
+@media (max-width: 767px) {	
+	#fulcrumlogo {
+		width: 100px;
+		height: 100px;
+	}
+	.sheet img {
+		width: 80px;
+		height: 80px;
+	}
+}
+@media (max-width: 320px) {	
 }
