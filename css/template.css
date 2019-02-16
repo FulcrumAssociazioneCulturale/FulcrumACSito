@@ -52,6 +52,10 @@ h2 {
 	padding-right: 15px;
 }
 
+.footericon a {	
+	color: black;
+}
+
 .copyright {
 	text-align: center;
 	padding-top: 20px;
