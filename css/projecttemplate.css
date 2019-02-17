@@ -229,6 +229,10 @@
 	}
 }
 @media (max-width: 767px) {
+	.sidebar {
+		display: none;
+	}
+	
 	.projbannerbig {
 		width: 335px;
 		height: 105px;
@@ -237,11 +241,12 @@
 		width: 335px;
 		height: 105px;
 	}	
+	.imgflow {
+		display: block;
+	}
 	.contentbox img {
-		width: 30%;
-		height: 30%;
+		width: 100%;
 	}	
 }
 @media (max-width: 320px) {
-	
 }

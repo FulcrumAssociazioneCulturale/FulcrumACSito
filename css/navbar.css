@@ -133,30 +133,22 @@
 	}
 }
 
-@media (max-width: 420px) {
-	
+@media (max-width: 420px) {	
 	.topbar {
 		display: none;
 	}
 	
 	.topbarsmall {
 		display: block;
+		background-color: black;
 	}
 		
 	.smalllogo {
-		width: 35px;
+		width: 250px;
 		height: 35px;
 		position: relative;
 		top: 0;
 		left: 0;
-	}
-	
-	.smalllogotext {
-		width: 214px;
-		height: 30px;
-		padding-top: 0;
-		padding-left: 3px;
-		position: relative;
 	}
 	
 	.topbarsmall #smallmenulinks {
@@ -164,7 +156,6 @@
 	}
 		
 	.topbarsmall a {
-		background-color: black;
 		color: white;
 		text-decoration: none;
 		font-size: 17px;

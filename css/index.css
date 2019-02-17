@@ -54,30 +54,27 @@ footer {
 
 /* Small Desktops */
 @media (max-width: 1096px) {	
-	.newsimage {
-		width: 182px;
-		height: 77px;
-	}
+	
 }
 
 /* Small Tablets */
 @media (max-width: 767px) {	
-	.news {
-		height: 420px;
+	.newsarticlebox {
+		width: 100%;
+		justify-content: center;
 	}
-
 	.newsarticle {
-		width: 50%;	
 		padding-bottom: 30px;
 	}
 }
 
 /* Mobile */
 @media (max-width: 320px) {
-	.news {
-		height: 840px;
+	.slider {
+		display: none;
 	}
-	.newsarticle {
-		width: 100%;
+	.newsarticle img {
+		max-width: 250px;
+		height: auto;
 	}
 }

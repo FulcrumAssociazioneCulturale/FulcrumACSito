@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta description="Fulcrum è un’associazione che sorge dall’idea di offrire un supporto professionale ad artisti, scrittori e autori per i loro progetti, fornendo una serie di servizi nelle varie fasi, dalla concezione alla eventuale commercializzazione.">
 <!-- InstanceBeginEditable name="doctitle" -->
 <title>Fulcrum Associazione Culturale - Contatti</title>
 <!-- InstanceEndEditable -->
@@ -21,14 +22,14 @@
 
 <body>
 	<div class="topbarsmall">
-		<img class="smalllogo" src="/images/logo.png" alt="fulcrum_banner_top">
-		<img class="smalllogotext" src="/images/scrittalogo.png" alt="fulcrum_text_top">
+		<img class="smalllogo" src="images/banners/fulcrumbannersmall.jpg" alt="fulcrum_banner_top">
     	<div id="smallmenulinks">
-			<a href ="#notizie">Notizie</a> 
-			<a href ="#fulcrum">Fulcrum</a> 
-			<a href ="#servizi">Servizi</a> 
-			<a href ="#faq">FAQ</a> 
-			<a href ="#contatti">Contatti</a>
+			<a href ="progetti.html">Progetti</a> 
+			<a href ="about.html">Fulcrum</a> 
+			<a href ="servizi.html">Servizi</a> 
+			<a href ="faq.html">FAQ</a> 
+			<a href ="contactform.html">Contatti</a>	
+			<a href ="index.html">Home</a>
 	    </div>
 		<a href="javascript:void(0);" class="smallmenuicon" onclick="openSmallMenu()">
 			<i class="fas fa-bars"></i>
@@ -57,26 +58,26 @@
 	<div class="container">
 		<!-- InstanceBeginEditable name="content" -->
 		<section class="form">
-			<form name="contactform" method="post" action="send_form_email.php">
+			<form name="contactform" method="post" action="e-mailform.php">
 				<table id="table">
 					<tr>
  						<td class="leftcell">
   							<label for="first_name">Nome *</label>
  						</td>
- 						<td><input  type="text" name="first_name" maxlength="50" size="30"></td>
+ 						<td><input  type="text" name="first_name" placeholder="Mario" maxlength="50" size="30"></td>
 					</tr>
 					<tr>
  						<td class="leftcell">
   							<label for="last_name">Cognome *</label>
  						</td>
  						<td>
-  							<input  type="text" name="last_name" maxlength="50" size="30">
+  							<input  type="text" name="last_name" placeholder="Rossi" maxlength="50" size="30">
  						</td>
 					</tr>
 					<tr>
  						<td class="leftcell"><label for="email">Indirizzo E-Mail *</label></td>
  						<td>
-  							<input  type="text" name="email" maxlength="80" size="30">
+  							<input  type="text" name="email" placeholder="mariorossi@mail.mail" maxlength="80" size="30">
  						</td>
 					</tr>
 					<tr>
@@ -84,7 +85,7 @@
   							<label for="telephone">Numero di Telefono</label>
  						</td>
  						<td>
-  							<input  type="text" name="telephone" maxlength="30" size="30">
+  							<input  type="text" name="telephone" placeholder="+39" maxlength="30" size="30">
  						</td>
 					</tr>
 					<tr>
@@ -92,7 +93,7 @@
   							<label for="town">Città</label>
  						</td>
  						<td>
-  							<input  type="text" name="telephone" maxlength="30" size="30">
+  							<input  type="text" name="town" placeholder="Italia" maxlength="30" size="30">
  						</td>
 					</tr>
 					<tr>
@@ -100,7 +101,7 @@
   							<label for="comments">Messaggio *</label>
  						</td>
  						<td>
-  							<textarea class="comments" name="comments" maxlength="1000"></textarea>
+  							<textarea class="comments" name="comments" placeholder="Scrivi il tuo messaggio qui..." maxlength="1000"></textarea>
  						</td>
 					</tr>
 					<tr>
