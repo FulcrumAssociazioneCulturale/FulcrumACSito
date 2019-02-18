@@ -47,6 +47,8 @@ h2 {
 }
 
 .fulcrumsheet img {
+	width: 200px;
+	padding-top: 15px;
 	padding-left: 10px;
 	flex-shrink: 0;
 	height: 100%;

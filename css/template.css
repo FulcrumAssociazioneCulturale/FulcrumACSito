@@ -33,7 +33,7 @@ h2 {
 .footer_banner {
 	background-color: #B3B3B3;
 	padding-top: 40px;
-	padding-bottom: 40PX;
+	padding-bottom: 25PX;
 }
 
 .footericons {
@@ -69,6 +69,11 @@ h2 {
 
 .hidden {
 	display: none;
+}
+
+#policies {
+	text-align: center;	
+	padding-top: 20px;
 }
 
 @media (max-width: 1096px) {	

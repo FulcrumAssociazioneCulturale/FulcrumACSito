@@ -41,6 +41,13 @@
       -2px 2px 3px lightgray; 
 }
 
+.contentbox p a {
+	color: darkred;
+	text-decoration: none;
+	text-shadow: 
+      -1px 1px 2px darkred;
+}
+
 .imgflow {
 	display: flex;
 	justify-content: space-between;
@@ -211,6 +218,13 @@
 }
 .externallink i {	
 	color: rgba(49,49,49,0.70);
+}
+.instagramlink i {
+	color: transparent;
+  	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  	background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  	background-clip: text;
+  	-webkit-background-clip: text;
 }
 
 

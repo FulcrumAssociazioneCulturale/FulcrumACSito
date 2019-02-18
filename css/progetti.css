@@ -73,7 +73,7 @@ article {
 		padding-left: 100px;
 	}			
 	.testoprogetti{	
-		overflow:scroll;
+		overflow-y: scroll;
 	}
 }
 
@@ -86,13 +86,13 @@ article {
 	}
 }
 
-@media (max-width: 320px) {	
+@media (max-width: 479px) {	
 	.progetti article img {
-		width: 110px;
-		height: 55px;
+		width: 180px;
+		height: auto;
 	}
 	.testoprogetti {
-		height: 60px;
+		height: 85px;
 	}	
 	.progetti article {
 		height: 80px;

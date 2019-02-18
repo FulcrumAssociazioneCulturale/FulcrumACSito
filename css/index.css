@@ -58,7 +58,7 @@ footer {
 }
 
 /* Small Tablets */
-@media (max-width: 767px) {	
+@media (max-width: 767px) {		
 	.newsarticlebox {
 		width: 100%;
 		justify-content: center;
@@ -68,11 +68,14 @@ footer {
 	}
 }
 
-/* Mobile */
-@media (max-width: 320px) {
+@media (max-width: 479px){
 	.slider {
 		display: none;
 	}
+}
+
+/* Mobile */
+@media (max-width: 320px) {	
 	.newsarticle img {
 		max-width: 250px;
 		height: auto;
